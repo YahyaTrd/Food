@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+    <link rel="stylesheet" href="style.css" />
+    <!--svg-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Expanded+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo"><i class="fa-solid fa-utensils"></i>resto.</a>
+      <nav class="navbar">
+        <a class="active" href="#home">Home</a><a href="#dishes">Dishes</a
+        ><a href="#about">About</a><a href="#menu">Menu</a
+        ><a href="#review">Review</a><a href="#contact">Orders</a>
+      </nav>
+      <div class="icons">
+        <i class="fa-solid fa-bars" id="menu-bars"></i>
+        <i class="fa-solid fa-magnifying-glass" id="search-icon"></i>
+        <a href="#" class="fa-solid fa-heart"></a>
+        <a href="#" class="fa-solid fa-cart-shopping"></a>
+      </div>
+    </header>
+    <form action="" id="search-form">
+      <input
+        type="search"
+        placeholder="search now..."
+        name=""
+        id="search-box"
+      />
+      <label for="search-box" class="fas fa-search"></label>
+      <i class="fa-solid fa-xmark" id="close"></i>
+    </form>
+    <!--home seection start-->
+  
+    <section class="home" id="home">
+      <div class="swiper mySwiper home-slider">
+        <div class="swiper-wrapper wrapper">
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>Great food awaits you</span>
+              <h3>couscoous</h3>
+              <p>It is one of the foods eaten on Fridays.</p>
+              <a href="#" class="btn">order now</a>
+            </div>
+            <div class="image"><img src="images/couscous.jpeg" alt="" /></div>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>Great food awaits you</span>
+              <h3>tea</h3>
+              <p>A drink that Moroccans love</p>
+              <a href="#" class="btn">order now</a>
+            </div>
+            <div class="image"><img src="images/tea.jpeg" alt="" /></div>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>Great food awaits you</span>
+              <h3>salad</h3>
+              <p>It is considered a light meal.</p>
+              <a href="#" class="btn">order now</a>
+            </div>
+            <div class="image"><img src="images/salad.jpeg" alt="" /></div>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>Great food awaits you</span>
+              <h3>coffee</h3>
+              <p>A drink to wake up from sleep</p>
+              <a href="#" class="btn">order now</a>
+            </div>
+            <div class="image"><img src="images/cofffe.jpeg" alt="" /></div>
+          </div>
+        </div>
+         </div>
+        </div>
+        </div>
+       
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <!---home section end-->
+    
+    <section class="dishes" id="dishes">
+      <h3 class="sub-heading">our dishes</h3>
+      <h1 class="heading">popular dishes</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="images/Harira-Moroccan-soup-2.jpg" alt="" height="500">
+          <h3>Harira</h3>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <span>9.99 DH</span>
+          <a href="#" class="btn">add cart</a>
+        </div>
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="images/tajine chicken.jpeg" alt=""  width="600" height="500">
+          <h3>chicken Tajine</h3>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <span>50.00 DH</span>
+          <a href="#" class="btn">add cart</a>
+        </div>
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="images/msemen-bread-recipe.jpg" alt=""  width="600" height="500">
+          <h3>Msemen</h3>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <span>6.97 DH</span>
+          <a href="#" class="btn">add cart</a>
+        </div>
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="images/takoos.jpg" alt=""  width="600" height="500">
+          <h3>Takoos</h3>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <span>40.00 DH</span>
+          <a href="#" class="btn">add cart</a>
+        </div>
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="images/rfissa-marocaine.webp" alt=""  width="600" height="500">
+          <h3>Rfissa</h3>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <span>69.99 DH</span>
+          <a href="#" class="btn">add cart</a>
+        </div>
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="images/tanjia.webp" alt=""  width="600" height="500">
+          <h3>Tanjia</h3>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <span>230.33 DH</span>
+          <a href="#" class="btn">add cart</a>
+        </div>
+      </div>
+    </section>
+
+    <!--about-->
+    <section class="about" id="about">
+      <h3 class="sub-heading">about</h3>
+      <h1 class="heading">why choose us</h1> 
+
+      <div class="row">
+        <div class="image">
+          <img src="images/tea.jpg" alt="" height="400" width="400">
+        </div>
+        <div class="content">
+          <h3>best food the morocco</h3>
+          <p>Moroccan cuisine is considered one of the most wonderful
+             and diverse cuisines in the world 🌍 
+            thanks to its rich history, regional influences, 
+           and wonderful blend of Arabic, Berber (Amazigh), 
+            Andalusian, Mediterranean,
+             and French flavors.</p>
+             <div class="icons-container">
+       <div class="icons">
+       <i class="fa-solid fa-cart-shopping"></i>
+        <span>free delivery</span>
+        </div>
+             
+             <div class="icons">
+              <i class="fa-solid fa-dollar-sign"></i>
+               <span>pyments</span>
+               </div>
+               <div class="icons">
+                <i class="fa-solid fa-headset"></i>
+                 <span>+212 704907444/service</span>
+                 </div>
+        </div>
+        <a href="#" class="btn">learn more</a>
+      </div>
+      </div>
+    </section>
+    <section class="menu" id="menu">
+      <h3 class="sub-heading">We have delicious food</h3>
+      <h1 class="heading">Tasty food in town</h1>
+      <div class="box-container">
+        <div class="box">
+        <div class="image">
+          <img src="images/OIP.jpeg" alt="" height="400">
+          <a href="#" class="fas fa-heart"></a>
+        </div>
+        <div class="content">
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <h3>Beef Tajine</h3>
+          <a href="#" class="btn2">add to cart</a>
+          <span>134 DH</span>
+        </div>
+      </div>
+      <div class="box">
+        <div class="image">
+          <img src="images/bastila.jpeg" alt="" height="400">
+          <a href="#" class="fas fa-heart"></a>
+        </div>
+        <div class="content">
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <h3>Bastila</h3>
+          <a href="#" class="btn2">add to cart</a>
+          <span>140 DH</span>
+        </div>
+      </div>
+      <div class="box">
+        <div class="image">
+          <img src="images/tea.jpg" alt="" height="400">
+          <a href="#" class="fas fa-heart"></a>
+        </div>
+        <div class="content">
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <h3>Tea</h3>
+          <a href="#" class="btn2">add to cart</a>
+          <span>20 DH</span>
+        </div>
+      </div>
+       <div class="box">
+        <div class="image">
+          <img src="images/specy.jpeg" alt="" height="400">
+          <a href="#" class="fas fa-heart"></a>
+        </div>
+        <div class="content">
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h3>Morocco Spices</h3>
+          <a href="#" class="btn2">add to cart</a>
+          <span>50 DH</span>
+        </div>
+      </div>
+      <div class="box">
+        <div class="image">
+          <img src="images/candy.webp" alt="" height="400">
+          <a href="#" class="fas fa-heart"></a>
+        </div>
+        <div class="content">
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+          </div>
+          <h3>Morocco Candy</h3>
+          <a href="#" class="btn2">add to cart</a>
+          <span>100 DH</span>
+        </div>
+      </div>
+      <div class="box">
+        <div class="image">
+          <img src="images/eggs.jpeg" alt="" height="400">
+          <a href="#" class="fas fa-heart"></a>
+        </div>
+        <div class="content">
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <h3>Eggs and Tomatos</h3>
+          <a href="#" class="btn2">add to cart</a>
+          <span>19 DH</span>
+        </div>
+      </div>
+      </div>
+    </section>
+    <section class="review" id="review">
+      <h3 class="sub-heading">customer's review</h3>
+      
+      <div class="swiper-container review-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <div class="user">
+              <img src="images/moha.jpg" alt="">
+              <div class="user-info">
+                <h3>Chef Moha</h3>
+                <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <p>From the moment I set foot in the restaurant,
+               I felt as though I was in for a unique experience.
+               The welcome was warm, and the atmosphere felt like home. 
+               But the real moment that captivated 
+               me was when I tasted
+                my first bite of the prune tagine.
+                My goodness! The flavors were balanced,
+                the meat melted in the mouth,
+                 and the spices tickled the senses.
+                  I hadn't experienced such pleasure in a long time.</p>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="user">
+              <img src="images/choumicha.jpg" alt="">
+              <div class="user-info">
+                <h3>Chef Choumicha</h3>
+                <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <p>- "Great! You made the dish well,
+               but you could add a little
+                salt to improve the flavor."</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="order" id="contact">
+      <h3 class="sub-heading">Orders</h3>
+      <form action="">
+        <div class="inputBox">
+          <div class="input">
+           <div class="input">
+            <span>your name</span>
+            <input type="text" placeholder="enter your name">
+          </div>
+            <span>your order</span>
+            <input type="text" placeholder="enter food name">
+          </div>
+          <div class="input">
+            <span>additionel food</span>
+            <input type="test" placeholder="extra with food">
+          </div>
+          <div class="inputBox">
+          <div class="input">
+            <span>how musch</span>
+            <input type="number" placeholder="how many ordes">
+          </div>
+          <div class="input">
+            <span>date and time</span>
+            <input type="datetime-local" placeholder="enter your number">
+          </div>
+          <div class="input">
+            <span>your address</span>
+            <textarea name="" cols="30" rows="10" placeholder="enter your adresse" id=""></textarea>
+          </div>
+        </div>
+        </div>
+        <input type="submit" value="order now" class="btn">
+      </form>
+    </section>
+    <!---java script-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
